@@ -2,7 +2,7 @@
 
 The goals of this assignment are:
     * Use numpy in practice with two easy exercises.
-    * Use automated tools to validate the code (`pytest` and `flake8`)
+    * Use automated tools to validate the code (`pytest` and `ruff`)
     * Submit a Pull-Request on github to practice `git`.
 
 The two functions below are skeleton functions. The docstrings explain what
@@ -12,8 +12,8 @@ wrote. To run the tests, use `pytest test_numpy_question.py` at the root of
 the repo. It should say that 2 tests ran with success.
 
 We also ask to respect the pep8 convention: https://pep8.org.
-This will be enforced with `flake8`. You can check that there is no flake8
-errors by calling `flake8` at the root of the repo.
+This will be enforced with `ruff`. You can check that there are no errors
+by calling `ruff check` at the root of the repo.
 """
 import numpy as np
 

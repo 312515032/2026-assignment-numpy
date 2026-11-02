@@ -1,0 +1,8 @@
+[lint]
+select = ["E", "F", "W", "D"]
+
+[lint.pydocstyle]
+convention = "pep257"
+
+[lint.per-file-ignores]
+"test_*.py" = ["D"]
